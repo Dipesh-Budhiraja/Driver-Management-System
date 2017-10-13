@@ -1,8 +1,9 @@
-package project;
+package oops_project;
 import java.util.Scanner;
 import java.util.Date;
 
-public class driver {
+public class project {
+	class driver {
 
 	    private String name;
 	    private int code;
@@ -59,15 +60,11 @@ public class driver {
 	        System.out.println("Driver's Gender :- " + gender);;
 	        System.out.println("Driver's Address :- "+ address);
 	    }
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//			String s =new String();
-//			Scanner in =new Scanner(System.in);
-//			s = in.nextLine();
-//			System.out.println(s);
-//			System.out.println("changed string is");
-//			s = "rohan";
-//			System.out.println(s);
-//	}
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
 
 }
